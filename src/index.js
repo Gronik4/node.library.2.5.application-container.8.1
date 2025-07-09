@@ -9,7 +9,7 @@ const bookRouters = require('./Routes/books');
 const app = express();
 app.use(express.urlencoded());
 
-//app.set('views', path.join(__dirname, './src/views'));// Показывает, что файл index.ejs лежит не в app/view, а в app/src/view
+app.set('views', path.join(__dirname, 'views'));// Показывает, что файл index.ejs лежит не в app/view, а в app/src/view
 app.set('view engine', 'ejs');
 
 app.use('/', router);
