@@ -13,4 +13,4 @@
 
 Образ к задаче №1  gronik4/node0hw0docker:hw8task1  
 
-Образ к задаче №1  gronik4/node0hw0docker:hw8task2
+Образ к задаче №2  gronik4/node0hw0docker:hw8task2
